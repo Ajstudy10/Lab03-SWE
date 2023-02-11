@@ -1,3 +1,5 @@
+import java.lang.reflect.Array;
+
 class sorter{
 
     public static void main(String[] args){
@@ -34,6 +36,11 @@ class sorter{
             }
             arr[j + 1] = key;
         }
+    }
+
+    void sort(int[] arr){
+
+        insertionSort(arr);
     }
 
 }
