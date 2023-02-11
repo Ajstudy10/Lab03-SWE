@@ -39,8 +39,7 @@ class sorter{
     }
 
     void sort(int[] arr){
-
-        insertionSort(arr);
+        selectionSort(arr);
     }
 
 }
