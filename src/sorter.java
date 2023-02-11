@@ -1,14 +1,6 @@
 class sorter{
 
     public static void main(String[] args){
-  
-        int arr[] = { 12, 11, 13, 5, 6 };
- 
-        sorter ob = new sorter();
-        ob.sort(arr);
- 
-        printArray(arr);
-
     }
 
     public static void selectionSort(int[] arr){  
@@ -26,19 +18,7 @@ class sorter{
         }  
     }  
     
-    static void printArray(int arr[])
-    {
-        int n = arr.length;
-        for (int i = 0; i < n; ++i)
-            System.out.print(arr[i] + " ");
- 
-        System.out.println();
-    }
-
-
-    
-
-    void sort(int arr[])
+    void insertionSort(int arr[])
     {
         int n = arr.length;
         for (int i = 1; i < n; ++i) {
