@@ -38,8 +38,11 @@ class sorter{
         }
     }
 
-    void sort(int[] arr){
-        selectionSort(arr);
+    void sort1(int[] arr){
+        insertionSort(arr);
     }
 
+    void sort2(int[] arr){
+        selectionSort(arr);
+    }
 }
